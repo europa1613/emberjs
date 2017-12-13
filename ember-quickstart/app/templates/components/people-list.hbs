@@ -2,7 +2,8 @@
 
 <ul>
 	{{#each people as |person|}}
-	<li>{{person}}</li>
+	{{!-- <li>{{person}}</li> --}}
+	<li {{action "showPerson" person}}>{{person}}</li>
 	{{/each}}
 	<li>From People</li>
 </ul>
