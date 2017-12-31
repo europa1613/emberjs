@@ -1,3 +1,4 @@
+import Ember from 'ember';
 import Route from '@ember/routing/route';
 const Promise = Ember.RSVP.Promise;
 
